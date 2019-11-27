@@ -1,0 +1,26 @@
+{
+    "name": "hola_mundo_express",
+    "version": "1.0.0",
+    "description": "ejemplo hola mundo",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/eduardovc/hola_mundo_express.git"
+    },
+    "keywords": [
+        "express",
+        "node"
+    ],
+    "author": "Eduardo ventura",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/eduardovc/hola_mundo_express/issues"
+    },
+    "homepage": "https://github.com/eduardovc/hola_mundo_express#readme",
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}
