@@ -1,20 +1,10 @@
 {
     "name": "hola_mundo_express",
     "version": "1.0.0",
-    "description": "ejemplo hola mundo",
+    "description": "hola mundo",
     "main": "app.js",
     "scripts": {
-        "test": "tape test/*.js | tap-spec",
-        "lint": "xo",
-        "security-check": "nsp check",
-        "coverage": "nyc npm test",
-        "coverage:html": "nyc npm test && nyc report --reporter=html",
-        "coveralls": "nyc npm test && nyc report --reporter=text-lcov | coveralls",
-        "ci": "npm run lint && npm run coveralls",
-        "dependencyCheck": "szero . --ci",
-        "release": "standard-version -a",
-        "openshift": "nodeshift --imageTag=12.x --strictSSL=false --tryServiceAccount=false --configLocation /openshift.local.config/master/admin.kubeconfig",
-        "start": "node ."
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
         "type": "git",
@@ -22,9 +12,9 @@
     },
     "keywords": [
         "express",
-        "node"
+        "ejemplo"
     ],
-    "author": "Eduardo ventura",
+    "author": "eduard oventura",
     "license": "ISC",
     "bugs": {
         "url": "https://github.com/eduardovc/hola_mundo_express/issues"
