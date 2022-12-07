@@ -21,6 +21,6 @@
     },
     "homepage": "https://github.com/eduardovc/hola_mundo_express#readme",
     "dependencies": {
-        "express": "^4.17.1"
+        "express": "^4.18.2"
     }
 }
